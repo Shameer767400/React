@@ -1,0 +1,9 @@
+.app {
+  background: #f8f9fc;
+  min-height: 100vh;
+}
+
+.main-layout {
+  display: flex;
+  height: calc(100vh - 60px);
+}
