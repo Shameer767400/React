@@ -1,4 +1,5 @@
-.sidebar {
+.sidebar 
+{
   width: 200px;
   background: #fff;
   border-right: 1px solid #e0e0e0;
@@ -6,7 +7,9 @@
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.sidebar-title {
+
+.sidebar-title 
+{
   font-size: 18px;
   font-weight: 600;
   color: #242424;
@@ -14,12 +17,14 @@
   text-align: center;
 }
 
-.sidebar-list {
+.sidebar-list 
+{
   list-style: none;
   padding: 0;
 }
 
-.sidebar-list li {
+.sidebar-list li 
+{
   padding: 10px 15px;
   cursor: pointer;
   border-radius: 6px;
@@ -28,7 +33,8 @@
 }
 
 .sidebar-list li:hover,
-.sidebar-list .dashboard-sidebar {
+.sidebar-list .dashboard-sidebar
+ {
   background: #83e5c8;
   color: white;
 }
