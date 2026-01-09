@@ -1,8 +1,8 @@
 import React from "react";
 import "./Sidebar.css";
-
 export default function Sidebar() {
-  return (
+  return
+    (
     <aside className="sidebar">
       <h2 className="sidebar-title">Menu</h2>
       <ul className="sidebar-list">
@@ -10,5 +10,7 @@ export default function Sidebar() {
         <li>❓ Help</li>
       </ul>
     </aside>
+    
   );
+  
 }
